@@ -32,25 +32,20 @@ header{
     margin-bottom: 76px;
     margin-top: 40px;
     margin-left: 150px;
+    float: left;
     }
 
 main h1{
     font-family: "rowdie";
+    font-size: 30px;
 }
 
 p{
     font-family: "outro";
     line-height: 7px;
 }
-aside{
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
 
- }
+
 footer{
     width: 100%;
     display: block;
@@ -74,4 +69,20 @@ footer div{
 }
 .checked{
     color: rgb(48, 48, 48);
+}
+aside{
+    width: 40%;
+    height: 270px;
+    display: block;
+    float: left;
+    margin-bottom: 76px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+#gato{
+    width: 50px;
+    height: 50px;
+    border-radius: 70%;
+    float: right;
 }
